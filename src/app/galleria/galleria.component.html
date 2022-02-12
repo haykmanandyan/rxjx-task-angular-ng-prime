@@ -1,0 +1,5 @@
+<p-galleria [value]="images" [autoPlay]="true">
+  <ng-template pTemplate="item" let-item>
+    <img [src]="item.imgSrc" style="width: 100%" [alt]="item.imgSrc">
+  </ng-template>
+</p-galleria>

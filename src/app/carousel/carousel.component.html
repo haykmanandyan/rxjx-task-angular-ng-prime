@@ -1,0 +1,5 @@
+<p-carousel [value]="images" [numVisible]="3">
+  <ng-template let-images pTemplate="item">
+    <img src="{{ images }}" style="width: 90%; object-fit: cover;">
+  </ng-template>
+</p-carousel>

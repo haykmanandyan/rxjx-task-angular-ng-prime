@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 15px 0;
+  a {
+    margin: 0 10px;
+    padding: 10px 2px;
+    color: #383ef1;
+    text-decoration: none;
+    border: 1px solid #2a2a2a;
+    transition: 0.5s;
+    &:hover {
+      border: 1px solid #c21a1a;
+      color: red;
+    }
+  }
+}
+
